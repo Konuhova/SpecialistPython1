@@ -17,10 +17,11 @@
 ```python
 n = int(input("n: "))
 
-# TODO: you code here...
-```
-
----
+n = int(input("n: ")) # сколько раз цикл нужно выполнить
+count = 0  # Сколько раз цикл выполнился
+while count < n:
+    print("Я учу питон")
+    count += 1
 
 ### Подсказки
 
