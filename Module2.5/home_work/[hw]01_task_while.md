@@ -35,7 +35,11 @@ n = 12
 ```
 ### Решение задачи
 
-```python
-# TODO: you code here...
-```
-
+cost = float(input("введите цену товара="))
+n = int(input("введите количество товаров="))
+a = 1
+cost_n = ""
+while n > a:
+    cost_n = a * cost
+    print(a, cost_n, "рублей")
+    a+=1
